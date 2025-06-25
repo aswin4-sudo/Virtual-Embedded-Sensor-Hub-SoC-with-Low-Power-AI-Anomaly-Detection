@@ -2,21 +2,17 @@
 
 module fsm_tb();
 
-    // Testbench signals
     reg clk;
     reg reset;
     reg [1:0]ai_signal;
-  // Only used when ai_output == 1
     reg ack;
     wire [1:0] state;
     wire sensor_enable;
     wire alert_flag;
 
-    // File reading
     integer file, code;
     reg [7:0] ai_output_val;
 
-    // Instantiate FSM
     fsm uut (
         .clk(clk),
         .reset(reset),
@@ -27,13 +23,10 @@ module fsm_tb();
         .alert_flag(alert_flag)
     );
 
-    // Clock generation: 10 ns period
     initial begin
         clk = 0;
         forever #5 clk = ~clk;
     end
-
-    // Stimulus logic with file reading
     initial begin
         // Initialize
         reset = 1;
@@ -42,30 +35,25 @@ module fsm_tb();
         #20;
         reset = 0;
 
-        // Open AI output file
         file = $fopen("ai_output.txt", "r");
         if (file == 0) begin
             $display("Error: Could not open AI output file.");
             $finish;
         end
 
-        // Read line by line and drive FSM input
         while (!$feof(file)) begin
             code = $fscanf(file, "%d\n", ai_output_val);
 
-            // Set ai_signal only if anomaly (1), else 0
             if (ai_output_val == 1)
                 ai_signal = 1;
             else
                 ai_signal = 0;
 
-            // Optional: Print value to console
+            
             $display("Time %t: AI Output = %0d, ai_signal = %b", $time, ai_output_val, ai_signal);
-
-            // Simulate time between each input (adjust as needed)
             repeat (10) @(posedge clk);
 
-            // Optionally add ack signal during ALERT state
+    
             if (state == 2'b10 && alert_flag) begin
                 #10 ack = 1;
                 #10 ack = 0;
