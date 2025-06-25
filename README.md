@@ -1,21 +1,21 @@
- Virtual Embedded Sensor Hub SoC with Low Power AI Anomaly Detection
+## Virtual Embedded Sensor Hub SoC with Low Power AI Anomaly Detection
 
 This project simulates a Virtual Embedded Sensor Hub System-on-Chip (SoC) integrated with AI-based anomaly detection, targeting industrial machinery, wearable health devices, satellite systems, and smart environmental monitors — where low power and intelligent monitoring are essential.
 
 
 # Project Aim
 
-To design and simulate a low-power embedded system that can:
+1 To design and simulate a low-power embedded system that can:
 
-Continuously monitor sensor signals,
+2 Continuously monitor sensor signals,
 
-Detect anomalies using machine learning trained on normal data,
+3 Detect anomalies using machine learning trained on normal data,
 
-Minimize power consumption via FSM-controlled logic,
+4 Minimize power consumption via FSM-controlled logic,
 
-Trigger UART alerts during abnormal conditions,
+5 Trigger UART alerts during abnormal conditions,
 
-Enable future deployment on microcontrollers, FPGAs, or real hardware.
+6 Enable future deployment on microcontrollers, FPGAs, or real hardware.
 
 
 # Real-World Implementation Vision
@@ -42,19 +42,19 @@ UART output would be used to communicate with a display, logger, or cloud module
 
 ---
 
-🛠️ Features
+# Features
 
-✅ Dataset simulating 1-day of sensor readings (1000+ entries)
-✅ Python ML model trained on normal patterns to identify outliers
-✅ FSM in Verilog HDL to model low-power state transitions
-✅ Sleep Mode to reduce energy usage when idle
-✅ UART output for alert signaling (ASCII: '0', '1', 'A')
-✅ AI output text file used as input to FSM testbench
-✅ Designed for real hardware translation (FPGA/MCU)
+1 Dataset simulating 1-day of sensor readings (1000+ entries)
+2 Python ML model trained on normal patterns to identify outliers
+3 FSM in Verilog HDL to model low-power state transitions
+4 Sleep Mode to reduce energy usage when idle
+5 UART output for alert signaling (ASCII: '0', '1', 'A')
+6 AI output text file used as input to FSM testbench
+7 Designed for real hardware translation (FPGA/MCU)
 
 
 
-🔋 Power-Aware FSM Logic
+# Power-Aware FSM Logic
 
 Your FSM smartly manages power depending on system state:
 
@@ -73,7 +73,7 @@ UART acts as communication channel for external systems.
 
 
 
-📊 AI Model Overview
+# AI Model Overview
 
 Trained on sensor data representing 24 hours of normal behavior
 
