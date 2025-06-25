@@ -1,13 +1,13 @@
-// FSM module with UART output based on state transitions
+
 module fsm (
     input wire clk,
     input wire reset,
-    input wire [1:0] ai_signal,   // 00 = normal, 01 = anomaly, 10 = no sensor data
+    input wire [1:0] ai_signal,   
     input wire ack,
     output reg [1:0] state,
     output reg sensor_enable,
     output reg alert_flag,
-    output reg [7:0] uart_out      // ASCII output
+    output reg [7:0] uart_out      
 );
 
     parameter SLEEP  = 2'b00,
@@ -28,7 +28,7 @@ module fsm (
         end else begin
             case (state)
 
-                // ----------- SLEEP -----------
+                
                 SLEEP: begin
                     sensor_enable <= 0;
                     alert_flag <= 0;
@@ -44,13 +44,13 @@ module fsm (
                         sleep_counter <= 0;
                     end
 
-                    if (sleep_counter >= 3) begin  // Reduced for simulation speed
+                    if (sleep_counter >= 3) begin  
                         state <= ALERT;
                         sleep_counter <= 0;
                     end
                 end
 
-                // ----------- ACTIVE -----------
+                
                 ACTIVE: begin
                     sensor_enable <= 1;
                     alert_flag <= 0;
@@ -64,7 +64,7 @@ module fsm (
                     end
                 end
 
-                // ----------- ALERT -----------
+                
                 ALERT: begin
                     sensor_enable <= 0;
                     alert_flag <= 1;
@@ -77,7 +77,7 @@ module fsm (
                     end
                 end
 
-                // ----------- DEFAULT -----------
+                
                 default: begin
                     state <= SLEEP;
                     sensor_enable <= 0;
@@ -88,11 +88,11 @@ module fsm (
 
             endcase
 
-            // UART Output based on state
+
             case (state)
-                SLEEP:  uart_out <= "0"; // ASCII '0'
-                ACTIVE: uart_out <= "1"; // ASCII '1'
-                ALERT:  uart_out <= "A"; // ASCII 'A'
+                SLEEP:  uart_out <= "0"; 
+                ACTIVE: uart_out <= "1"; 
+                ALERT:  uart_out <= "A"; 
                 default: uart_out <= "0";
             endcase
         end
