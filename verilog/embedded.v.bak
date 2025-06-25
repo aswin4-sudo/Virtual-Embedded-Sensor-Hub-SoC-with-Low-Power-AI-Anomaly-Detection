@@ -1,0 +1,94 @@
+module fsm (
+    input wire clk,
+    input wire reset,
+    input wire [1:0] ai_signal,   // 00 = normal, 01 = anomaly, 10 = no sensor data
+    input wire ack,               // Acknowledgment input
+    output reg [1:0] state,
+    output reg sensor_enable,
+    output reg alert_flag
+);
+
+    // FSM States
+    parameter SLEEP  = 2'b00,
+              ACTIVE = 2'b01,
+              ALERT  = 2'b10;
+
+    // Counters for timers
+    integer alert_counter;
+    integer sleep_counter;
+
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            state <= SLEEP;
+            sensor_enable <= 0;
+            alert_flag <= 0;
+            alert_counter <= 0;
+            sleep_counter <= 0;
+        end else begin
+            case (state)
+
+                // ----------- SLEEP STATE -----------
+                SLEEP: begin
+                    sensor_enable <= 0;
+                    alert_flag <= 0;
+                    alert_counter <= 0;
+
+                    // Only increment counter if ai_signal == 1 (anomaly)
+                    if (ai_signal == 2'b01) begin
+                        sleep_counter <= sleep_counter + 1;
+                    end
+
+                    // Check transition condition only if anomaly
+                    if (sleep_counter >= 300) begin
+                        if (ai_signal == 2'b01)
+                            state <= ALERT;
+                        else if (ai_signal == 2'b00)
+                            state <= ACTIVE;
+
+                        sleep_counter <= 0;
+                    end
+                end
+
+                // ----------- ACTIVE STATE -----------
+                ACTIVE: begin
+                    sensor_enable <= 1;
+                    alert_flag <= 0;
+                    sleep_counter <= 0;
+
+                    if (ai_signal == 2'b01) begin
+                        state <= ALERT;
+                        alert_counter <= 0;
+                    end
+                end
+
+                // ----------- ALERT STATE -----------
+                ALERT: begin
+                    sensor_enable <= 0;
+                    alert_flag <= 1;
+                    sleep_counter <= 0;
+                    alert_counter <= alert_counter + 1;
+
+                    if (ack == 1) begin
+                        state <= SLEEP;
+                        alert_counter <= 0;
+                    end else if (alert_counter >= 5) begin
+                        state <= SLEEP;
+                        alert_counter <= 0;
+                    end
+                end
+
+                // ----------- DEFAULT CASE -----------
+                default: begin
+                    state <= SLEEP;
+                    sensor_enable <= 0;
+                    alert_flag <= 0;
+                    alert_counter <= 0;
+                    sleep_counter <= 0;
+                end
+
+            endcase
+        end
+    end
+
+endmodule
+

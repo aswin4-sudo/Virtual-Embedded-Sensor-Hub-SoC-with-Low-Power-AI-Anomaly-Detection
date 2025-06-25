@@ -1,0 +1,327 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project soc
+vsim fsm_tb
+# vsim fsm_tb 
+# Start time: 11:05:06 on Jun 24,2025
+# Loading work.fsm_tb
+# Loading work.fsm
+run -all
+# Time                20000: AI Output = 0, ai_signal = 00
+# Time               115000: AI Output = 0, ai_signal = 00
+# Time               215000: AI Output = 1, ai_signal = 01
+# Time               315000: AI Output = 0, ai_signal = 00
+# Time               415000: AI Output = 2, ai_signal = 00
+# Time               515000: AI Output = 0, ai_signal = 00
+# Time               615000: AI Output = 1, ai_signal = 01
+# Time               715000: AI Output = 2, ai_signal = 00
+# Time               815000: AI Output = 0, ai_signal = 00
+# Time               915000: AI Output = 1, ai_signal = 01
+# Simulation completed.
+# ** Note: $finish    : C:/intelFPGA/18.1/test_embedded.v(77)
+#    Time: 1015 ns  Iteration: 1  Instance: /fsm_tb
+# 1
+# Break in Module fsm_tb at C:/intelFPGA/18.1/test_embedded.v line 77
+# Compile of test_embedded.v was successful.
+# Compile of embedded.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim fsm_tb
+# End time: 21:38:33 on Jun 24,2025, Elapsed time: 10:33:27
+# Errors: 1, Warnings: 0
+# vsim fsm_tb 
+# Start time: 21:38:35 on Jun 24,2025
+# Loading work.fsm_tb
+# Loading work.fsm
+run -all
+# Time                20000: AI Output = 0, ai_signal = 00
+# Time               115000: AI Output = 0, ai_signal = 00
+# Time               215000: AI Output = 1, ai_signal = 01
+# Time               315000: AI Output = 0, ai_signal = 00
+# Time               415000: AI Output = 2, ai_signal = 00
+# Time               515000: AI Output = 0, ai_signal = 00
+# Time               615000: AI Output = 1, ai_signal = 01
+# Time               715000: AI Output = 2, ai_signal = 00
+# Time               815000: AI Output = 0, ai_signal = 00
+# Time               915000: AI Output = 1, ai_signal = 01
+# Simulation completed.
+# ** Note: $finish    : C:/intelFPGA/18.1/test_embedded.v(77)
+#    Time: 1015 ns  Iteration: 1  Instance: /fsm_tb
+# 1
+# Break in Module fsm_tb at C:/intelFPGA/18.1/test_embedded.v line 77
+# Load canceled
+vsim fsm_tb
+# End time: 21:43:43 on Jun 24,2025, Elapsed time: 0:05:08
+# Errors: 1, Warnings: 0
+# vsim fsm_tb 
+# Start time: 21:43:43 on Jun 24,2025
+# Loading work.fsm_tb
+# Loading work.fsm
+run -all
+# Time                20000: AI Output = 0, ai_signal = 00
+# Time               115000: AI Output = 0, ai_signal = 00
+# Time               215000: AI Output = 0, ai_signal = 00
+# Time               315000: AI Output = 0, ai_signal = 00
+# Time               415000: AI Output = 0, ai_signal = 00
+# Time               515000: AI Output = 0, ai_signal = 00
+# Time               615000: AI Output = 1, ai_signal = 01
+# Time               715000: AI Output = 0, ai_signal = 00
+# Time               815000: AI Output = 1, ai_signal = 01
+# Time               915000: AI Output = 0, ai_signal = 00
+# Time              1015000: AI Output = 0, ai_signal = 00
+# Time              1115000: AI Output = 2, ai_signal = 00
+# Time              1215000: AI Output = 0, ai_signal = 00
+# Time              1315000: AI Output = 1, ai_signal = 01
+# Time              1415000: AI Output = 2, ai_signal = 00
+# Time              1515000: AI Output = 0, ai_signal = 00
+# Time              1615000: AI Output = 0, ai_signal = 00
+# Simulation completed.
+# ** Note: $finish    : C:/intelFPGA/18.1/test_embedded.v(77)
+#    Time: 1715 ns  Iteration: 1  Instance: /fsm_tb
+# 1
+# Break in Module fsm_tb at C:/intelFPGA/18.1/test_embedded.v line 77
+vsim fsm
+# End time: 21:56:47 on Jun 24,2025, Elapsed time: 0:13:04
+# Errors: 0, Warnings: 0
+# vsim fsm 
+# Start time: 21:56:47 on Jun 24,2025
+# Loading work.fsm
+vsim fsm_tb
+# End time: 21:57:12 on Jun 24,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim fsm_tb 
+# Start time: 21:57:12 on Jun 24,2025
+# Loading work.fsm_tb
+# Loading work.fsm
+run -all
+# Time                20000: AI Output = 0, ai_signal = 00
+# Time               115000: AI Output = 0, ai_signal = 00
+# Time               215000: AI Output = 0, ai_signal = 00
+# Time               315000: AI Output = 0, ai_signal = 00
+# Time               415000: AI Output = 0, ai_signal = 00
+# Time               515000: AI Output = 0, ai_signal = 00
+# Time               615000: AI Output = 1, ai_signal = 01
+# Time               715000: AI Output = 0, ai_signal = 00
+# Time               815000: AI Output = 1, ai_signal = 01
+# Time               915000: AI Output = 0, ai_signal = 00
+# Time              1015000: AI Output = 0, ai_signal = 00
+# Time              1115000: AI Output = 2, ai_signal = 00
+# Time              1215000: AI Output = 0, ai_signal = 00
+# Time              1315000: AI Output = 1, ai_signal = 01
+# Time              1415000: AI Output = 2, ai_signal = 00
+# Time              1515000: AI Output = 0, ai_signal = 00
+# Time              1615000: AI Output = 0, ai_signal = 00
+# Simulation completed.
+# ** Note: $finish    : C:/intelFPGA/18.1/test_embedded.v(77)
+#    Time: 1715 ns  Iteration: 1  Instance: /fsm_tb
+# 1
+# Break in Module fsm_tb at C:/intelFPGA/18.1/test_embedded.v line 77
+vsim fsm_tb
+# End time: 22:02:48 on Jun 24,2025, Elapsed time: 0:05:36
+# Errors: 0, Warnings: 0
+# vsim fsm_tb 
+# Start time: 22:02:48 on Jun 24,2025
+# Loading work.fsm_tb
+# Loading work.fsm
+# Compile of test_embedded.v was successful.
+# Compile of embedded.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim fsm_tb
+# End time: 22:03:45 on Jun 24,2025, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim fsm_tb 
+# Start time: 22:03:46 on Jun 24,2025
+# Loading work.fsm_tb
+# Loading work.fsm
+run -all
+# Time 35000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 55000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 75000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 95000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 115000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 135000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 155000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 175000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 195000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 215000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 235000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 255000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 275000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 295000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 315000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 335000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 355000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Simulation completed.
+# ** Note: $finish    : C:/intelFPGA/18.1/test_embedded.v(84)
+#    Time: 355 ns  Iteration: 1  Instance: /fsm_tb
+# 1
+# Break in Module fsm_tb at C:/intelFPGA/18.1/test_embedded.v line 84
+# Compile of test_embedded.v was successful.
+# Compile of embedded.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim fsm_tb
+# End time: 22:18:09 on Jun 24,2025, Elapsed time: 0:14:23
+# Errors: 0, Warnings: 0
+# vsim fsm_tb 
+# Start time: 22:18:09 on Jun 24,2025
+# Loading work.fsm_tb
+# Loading work.fsm
+run -all
+# Time 35000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 55000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 75000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 95000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 115000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 135000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 155000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 175000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 195000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 215000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 235000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 255000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 275000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 295000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 315000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 335000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Time 355000: AI Output = 0, ai_signal = 00, FSM State = 00, UART Out = 0
+# Simulation completed.
+# ** Note: $finish    : C:/intelFPGA/18.1/test_embedded.v(84)
+#    Time: 355 ns  Iteration: 1  Instance: /fsm_tb
+# 1
+# Break in Module fsm_tb at C:/intelFPGA/18.1/test_embedded.v line 84
+# Compile of test_embedded.v was successful.
+# Compile of embedded.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim fsm_tb
+# End time: 22:23:42 on Jun 24,2025, Elapsed time: 0:05:33
+# Errors: 0, Warnings: 0
+# vsim fsm_tb 
+# Start time: 22:23:42 on Jun 24,2025
+# Loading work.fsm_tb
+# Loading work.fsm
+# ** Warning: (vsim-3017) C:/intelFPGA/18.1/test_embedded.v(19): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /fsm_tb/uut File: C:/intelFPGA/18.1/embedded.v
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/test_embedded.v(19): [TFMPC] - Missing connection for port 'uart_out'.
+run -all
+# Time 35000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 55000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 75000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 95000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 115000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 135000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 155000: AI Output = 1, ai_signal = 01, FSM State = 10, UART Out = A
+# Time 175000: AI Output = 0, ai_signal = 00, FSM State = 10, UART Out = A
+# Time 195000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 215000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 235000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 255000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 275000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 295000: AI Output = 1, ai_signal = 01, FSM State = 10, UART Out = A
+# Time 315000: AI Output = 2, ai_signal = 10, FSM State = 10, UART Out = A
+# Time 335000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 355000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Simulation completed.
+# ** Note: $finish    : C:/intelFPGA/18.1/test_embedded.v(84)
+#    Time: 355 ns  Iteration: 1  Instance: /fsm_tb
+# 1
+# Break in Module fsm_tb at C:/intelFPGA/18.1/test_embedded.v line 84
+# Compile of test_embedded.v was successful.
+# Compile of embedded.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim fsm_tb
+# End time: 01:00:25 on Jun 25,2025, Elapsed time: 2:36:43
+# Errors: 0, Warnings: 2
+# vsim fsm_tb 
+# Start time: 01:00:26 on Jun 25,2025
+# Loading work.fsm_tb
+# Loading work.fsm
+# ** Warning: (vsim-3017) C:/intelFPGA/18.1/test_embedded.v(19): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /fsm_tb/uut File: C:/intelFPGA/18.1/embedded.v
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/test_embedded.v(19): [TFMPC] - Missing connection for port 'uart_out'.
+run -all
+# Time 35000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 55000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 75000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 95000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 115000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 135000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 155000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 175000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 195000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 215000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 235000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 255000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 275000: AI Output = 1, ai_signal = 01, FSM State = 10, UART Out = A
+# Time 295000: AI Output = 0, ai_signal = 00, FSM State = 10, UART Out = A
+# Time 315000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 335000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 355000: AI Output = 1, ai_signal = 01, FSM State = 10, UART Out = A
+# Time 375000: AI Output = 0, ai_signal = 00, FSM State = 10, UART Out = A
+# Time 395000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 415000: AI Output = 1, ai_signal = 01, FSM State = 10, UART Out = A
+# Time 435000: AI Output = 0, ai_signal = 00, FSM State = 10, UART Out = A
+# Time 455000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 475000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 495000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 515000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 535000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 555000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 575000: AI Output = 1, ai_signal = 01, FSM State = 10, UART Out = A
+# Time 595000: AI Output = 2, ai_signal = 10, FSM State = 10, UART Out = A
+# Time 615000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 635000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Simulation completed.
+# ** Note: $finish    : C:/intelFPGA/18.1/test_embedded.v(84)
+#    Time: 635 ns  Iteration: 1  Instance: /fsm_tb
+# 1
+# Break in Module fsm_tb at C:/intelFPGA/18.1/test_embedded.v line 84
+# Compile of test_embedded.v was successful.
+# Compile of embedded.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim fsm_tb
+# End time: 01:05:52 on Jun 25,2025, Elapsed time: 0:05:26
+# Errors: 0, Warnings: 2
+# vsim fsm_tb 
+# Start time: 01:05:52 on Jun 25,2025
+# Loading work.fsm_tb
+# Loading work.fsm
+# ** Warning: (vsim-3017) C:/intelFPGA/18.1/test_embedded.v(19): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /fsm_tb/uut File: C:/intelFPGA/18.1/embedded.v
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/test_embedded.v(19): [TFMPC] - Missing connection for port 'uart_out'.
+run -all
+# Time 35000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 55000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 75000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 95000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 115000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 135000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 155000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 175000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 195000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 215000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 235000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 255000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 275000: AI Output = 1, ai_signal = 01, FSM State = 10, UART Out = A
+# Time 295000: AI Output = 1, ai_signal = 01, FSM State = 10, UART Out = A
+# Time 315000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 335000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 355000: AI Output = 0, ai_signal = 00, FSM State = 10, UART Out = A
+# Time 375000: AI Output = 1, ai_signal = 01, FSM State = 00, UART Out = 0
+# Time 395000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 415000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 435000: AI Output = 1, ai_signal = 01, FSM State = 10, UART Out = A
+# Time 455000: AI Output = 0, ai_signal = 00, FSM State = 10, UART Out = A
+# Time 475000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 495000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 515000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 535000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 555000: AI Output = 2, ai_signal = 10, FSM State = 00, UART Out = 0
+# Time 575000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 595000: AI Output = 1, ai_signal = 01, FSM State = 10, UART Out = A
+# Time 615000: AI Output = 2, ai_signal = 10, FSM State = 10, UART Out = A
+# Time 635000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Time 655000: AI Output = 0, ai_signal = 00, FSM State = 01, UART Out = 1
+# Simulation completed.
+# ** Note: $finish    : C:/intelFPGA/18.1/test_embedded.v(84)
+#    Time: 655 ns  Iteration: 1  Instance: /fsm_tb
+# 1
+# Break in Module fsm_tb at C:/intelFPGA/18.1/test_embedded.v line 84

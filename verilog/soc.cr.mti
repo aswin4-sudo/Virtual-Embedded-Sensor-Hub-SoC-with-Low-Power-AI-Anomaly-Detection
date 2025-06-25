@@ -1,0 +1,23 @@
+{C:/intelFPGA/18.1/ai embedded.v} {1 {vlog -work work -stats=none {C:/intelFPGA/18.1/ai embedded.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fsm
+
+Top level modules:
+	fsm
+
+} {} {}} {C:/intelFPGA/18.1/ai embedded test.v} {2 {vlog -work work -stats=none {C:/intelFPGA/18.1/ai embedded test.v}
+** Warning: (vlog-14) Failed to open "C:/intelFPGA/18.1/soc.mpf" specified by the MODELSIM environment variable.
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fsm_tb
+
+Top level modules:
+	fsm_tb
+
+} {} {}} C:/intelFPGA/18.1/test_embedded.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/test_embedded.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fsm_tb
+
+Top level modules:
+	fsm_tb
+
+} {} {}}
